@@ -1,0 +1,222 @@
+/* .clock {
+    width: 200px;
+    height: 200px;
+    background-color: #d8d8d8;
+    border-radius: 100px;
+    position: relative;
+}
+
+
+
+
+.hand {
+    position: absolute;
+    width: 2px;
+    height: 40px;
+    background-color: #111118;
+    bottom: 99px;
+    left: 99px;
+    transform-origin: 50% 100%;
+
+}
+
+
+.minute {
+    height: 75px;
+}
+
+
+.second {
+    height: 90px;
+    background-color: #ff4141;
+} */
+
+/*body {
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #FF0078, #FF0078 50%, #F5C900 50%, #F5C900);
+}
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(160deg, #017BFF, #017BFF 50%, transparent 50%, transparent);
+    animation: animate 5s ease-in-out infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes animateclock {
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+
+}*/
+/* body {
+    position: absolute;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+  
+
+/*
+ #clock h2 {
+    position: relative;
+    display: block;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    font-size: 0.8em;
+} 
+
+#clcok #time {
+    display: flex;
+    z-index: 100;
+    animation: animateclock 5s ease-in-out infinite;
+}
+
+#clock #time div {
+    position: relative;
+    margin: 0 5px;
+    /* -webkit-box-reflect: below 1px linear-gradient(transparent, #0004); */
+/*    z-index: 100;
+    animation: animateclock 5s ease-in-out infinite;*/
+/*}
+
+#clock #time div span {
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 80px;
+    background: #017BFF;
+    color: #fff;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    z-index: 100;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+    z-index: 100;
+    animation: animateclock 5s ease-in-out infinite;
+}*/
+/*
+#clock #time div span:nth-child(2) {
+    height: 30px;
+    font-size: 0.7em;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+    z-index: 100;
+    box-shadow: none;
+    background: #017BFF;
+    text-transform: uppercase;
+    animation: animateclock 5s ease-in-out infinite;
+}
+
+#clock #time div:last-child span {
+    background: #FF0078;
+    z-index: 100;
+    animation: animateclock 5s ease-in-out infinite;
+}
+
+#clock #time div:last-child span:nth-child(2) {
+    background: #FF0078;
+    z-index: 100;
+    animation: animateclock 5s ease-in-out infinite;
+}
+
+#ampm {
+    position: relative;
+    color: #fff;
+    z-index: 100;
+    animation: animateclock 5s ease-in-out infinite;
+}*/
+
+body {
+    background-color: white;
+}
+#time {
+    color: black;
+    font-family: helvetica;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-size: 60px;
+
+}
+
+.all {
+transform: scale(1);
+z-index: 100;
+}
+
+.clock {
+    width: 200px;
+    height: 200px;
+    background-color:white;
+    border-radius: 100px;
+    position: relative;
+    margin: auto;
+    top: 230px;
+    animation: animate 2s ease-in-out infinite;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+}
+.hand {
+    position: absolute;
+    width: 2px;
+    height: 40px;
+    background-color: #111118;
+    bottom: 99px;
+    left: 99px;
+    transform-origin: 50% 100%;
+
+}
+
+
+.minute {
+    height: 75px;
+}
+
+
+.second {
+    height: 90px;
+    background-color: #017BFF;
+}
